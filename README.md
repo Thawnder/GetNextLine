@@ -12,7 +12,7 @@
 This project is included in my Libft, please refer to my Libft page (https://github.com/Thawnder/Libft) for proper implementation in your code.
 
 ## Example
-<pre>
+```
 #include "get_next_line.h"
 #include <fcntl.h>
 
@@ -26,7 +26,7 @@ int main() {
     close(fd);
     return 0;
 }
-</pre>
+```
 
 ## Notes
 - The get_next_line function reads from a file descriptor until a newline character or EOF is encountered.
